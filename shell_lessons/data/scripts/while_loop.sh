@@ -1,5 +1,5 @@
-digit=1
-while [ $digit -le 5 ]
+digit=3
+while [ $digit -ne 5 ]
 do
   echo "Welcome guest number $digit"
   digit=$(( $digit + 1 ))
